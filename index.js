@@ -22,7 +22,8 @@ btn.addEventListener('click', () => {
         li.appendChild(delBtn)
         text.prepend(li)
         li.addEventListener('click', () =>{
-            li.style.textDecogitration = 'line-through'
+            li.style.textDecoration = 'line-through'
+            
         })
     }
     input.value = ''
